@@ -1,0 +1,9 @@
+#success {
+    background: url('../../images/boylecelticpitch.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#grey-drop{
+    background-color: rgba(254, 255, 255, 0.4);
+}

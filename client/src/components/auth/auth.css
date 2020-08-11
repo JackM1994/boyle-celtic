@@ -1,0 +1,39 @@
+.floatLeft,
+.floatLefts {
+    display: none;
+}
+.loginForm{
+    height: 400px;
+}
+/* media queries  1024px*/
+
+ @media (min-width: 1024px){
+     #floatRight,
+     #floatRights{
+         float: right;
+         width: 50%;
+         background-color: rgba(255, 255, 255, 0.6);
+     }
+     .loginForm{
+         height: 390px;
+     }
+     .floatLeft,
+     .floatLefts{
+         float: left;
+         display: block;
+         height: auto;
+         width: 50%;
+
+     }
+     .floatLefts{
+        background: /*linear-gradient(#849B04, transparent 90%),*/
+        /* linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(7,25,11,1) 7%, rgba(11,39,18,1) 20%, rgba(45,152,69,1) 70%, rgba(76,255,115,1) 93%) center ; */
+        #3b945e;
+
+         background-size: cover;
+         height: 572px;
+     }
+     
+        
+     
+ }
