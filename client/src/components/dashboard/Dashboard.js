@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { logoutUser } from '../../actions/authActions';
 import Payment from '../Payment/Payment';
-
+import Covid19 from './covid19.pdf';
 
 
 class Dashboard extends Component{
@@ -30,15 +30,17 @@ class Dashboard extends Component{
                    
                     <img src="https://img.icons8.com/fluent/96/000000/bank-cards.png" alt="google-form"/>
                     <span style={{fontFamily:'Play', display: 'block',color: 'white', fontSize:'1.5em', marginBottom: '20px'}}className="form-title">
-                    <Payment
+                    
+                    <Payment 
                         name={'Boyle Celtic FC'}
                         description={'Registration 20/21 Season'}
                         amount={60.00}
                         />
+                    
                    </span>
 
                     
-                    <img src="https://img.icons8.com/ios/150/000000/google-docs.png" alt="google-form"/>
+                    <a href={Covid19}><img src="https://img.icons8.com/ios/150/000000/google-docs.png" alt="google-form"/></a>
                     <span style={{fontFamily:'"Roboto", sans-serif', display: 'block',color: 'white', fontSize:'1.5em'}}className="form-title">Covid-19 Form</span>
                     </div>
                     <button

@@ -4,7 +4,7 @@ import axios from 'axios';
 import StripeCheckout from 'react-stripe-checkout';
 import STRIPE_PUBLISHABLE from '../../constants/stripe';
 import Logo from '../../images/boyle-logo.png';
-
+import  '../dashboard/payButton.css';
 const CURRENCY = 'EUR';
 
 const fromEuroToCent = amount => parseInt(amount * 100);
@@ -20,6 +20,7 @@ const errorPayment = data => {
     alert('Payment Error');
     window.location.replace('http://localhost:3000/payment-error');
 };
+
 
 const onToken = (amount, description) => token =>
     axios.post('http://localhost:5000/api/payment/',
@@ -43,7 +44,9 @@ const Payment = ({ name, description, amount}) =>
             stripeKey={STRIPE_PUBLISHABLE}
             email
             allowRememberMe
-        />
-
-        
+        >
+        <button className="payButton">
+            Pay Now
+        </button>
+        </StripeCheckout>
 export default Payment;
