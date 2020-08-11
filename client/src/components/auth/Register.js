@@ -79,9 +79,9 @@ return (
             
           </span>
           <div className="social-media">
-          <img style={{ marginTop:'10px',marginLeft: '35px', marginRight: '10px', borderRadius:'50%', background:'#fff'}} src="https://img.icons8.com/windows/32/000000/facebook-new.png" alt="facebook-icon"/>
-          <img style={{marginTop:'10px',marginLeft: '35px', marginRight: '10px', borderRadius:'50%', background:'#fff', width: '32px', height: '32px'}} src="https://img.icons8.com/ios/50/000000/twitter.png" alt="twitter-icon"/>
-          <img style={{marginTop:'10px',marginLeft: '35px', marginRight: '10px', borderRadius:'50%', background:'#fff'}} src="https://img.icons8.com/windows/32/000000/instagram-new.png" alt="instagram-icon"/>
+          <a href="https://www.facebook.com/Boyle-Celtic-FC-596008740476752"><img style={{ marginTop:'10px',marginLeft: '35px', marginRight: '10px', borderRadius:'50%', background:'#fff'}} src="https://img.icons8.com/windows/32/000000/facebook-new.png" alt="facebook-icon"/></a>
+          <a href="https://www.instagram.com/boyle_celtic_fc/"><img style={{marginTop:'10px',marginLeft: '35px', marginRight: '10px', borderRadius:'50%', background:'#fff', width: '32px', height: '32px'}} src="https://img.icons8.com/ios/50/000000/twitter.png" alt="twitter-icon"/></a>
+          <a href="https://twitter.com/boylecelticfc?lang=en"><img style={{marginTop:'10px',marginLeft: '35px', marginRight: '10px', borderRadius:'50%', background:'#fff'}} src="https://img.icons8.com/windows/32/000000/instagram-new.png" alt="instagram-icon"/></a>
           </div>
         </div>
       <div className="container" id="floatRight">
